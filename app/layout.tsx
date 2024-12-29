@@ -42,20 +42,8 @@ export default function RootLayout({
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-        >
-
-          <SidebarProvider>
-            {/* <AppSidebar />     */}
-            <NewAppSidebar />        
-          <main className="flex items-center">
-            {/* <SideBar /> */}
-            <section className="h-screen py-3 px-3">
-                <NavBar />
-                <SidebarTrigger />
-              {children}
-            </section>
-            </main>       
-          </SidebarProvider>  
+        >          
+            {children}          
         </ThemeProvider>
       </body>
     </html>
