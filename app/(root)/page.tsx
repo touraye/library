@@ -5,9 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
-export default function Home({ children }: {
-  children: React.ReactNode
-}) {
+const Home = () => {
   return (
     <section className="flex flex-col md:flex-row  items-start gap-2 md:gap-6 py-4 px-4">
       <div>
@@ -25,7 +23,7 @@ export default function Home({ children }: {
         <NewCollections />
       </div>
       
-      <div>
+      <div className="dark:bg-gray-700 dark:text-gray-200">
         <Book
           img="/assets/book3.webp"
           title="The Chamber of Secrets"
@@ -81,3 +79,5 @@ export default function Home({ children }: {
     </section>
   );
 }
+
+export default Home;
