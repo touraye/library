@@ -10,7 +10,7 @@ const PopularBooks = () => {
 					<Ellipsis />
 				</div>
 				{/* Todo! Create a reusable card that take a image and a title */}
-				<ul className='flex flex-col items-center md:flex-row  md:items-start gap-6'>
+				<ul className='flex flex-wrap items-center md:flex-row  md:items-start gap-6'>
 				<li className='p-2 outline'>
 					<Link href="#">
 						{/* card header */}
