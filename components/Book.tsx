@@ -4,7 +4,7 @@ const Book = (
     { img, title, availability, imprints, page, description, borrowed }:
     { img: string, title: string, availability: boolean, imprints: number, page: number, description: string, borrowed: number }) => {
     return (
-        <section className="flex flex-col md:flex-row items-start gap-2">
+        <section className="flex flex-col-reverse md:flex-row items-start gap-2 md-4 md:mb-0">
         <Image src={img} width={100} height={100} alt={title} />
         <div>
             <h2 className="text-2xl mb-2">{title}</h2>
