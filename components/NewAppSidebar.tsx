@@ -27,6 +27,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar"
 import { UserInfo } from "./UserInfo"
+import Link from "next/link";
 
 // This is sample data.
 const data = {
@@ -36,17 +37,17 @@ const data = {
         links: [
             {
              title: "Home",
-             url: "#",
+             url: "/",
              icon: Home,
            },
            {
              title: "Collection",
-             url: "#",
+             url: "/collection",
              icon: MdCollectionsBookmark,
            },
            {
              title: "Favorite",
-             url: "#",
+             url: "/favorite",
              icon: FaBookmark,
            },
            {
@@ -56,7 +57,7 @@ const data = {
            },
            {
              title: "Settings",
-             url: "#",
+             url: "setting",
              icon: Settings,
            },
         ]
@@ -77,9 +78,9 @@ export function NewAppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>
                 <SidebarMenuSubButton asChild>
                   <div className="flex items-center gap-">
                     {item.icon && <item.icon />}
-                          <a href={item.url}>                          
+                          <Link href={item.url}>                          
                             <span>{item.title}</span>
-                          </a>
+                          </Link>
                   </div>
                 </SidebarMenuSubButton>
               </SidebarMenuItem>
