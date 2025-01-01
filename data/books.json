@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre_id": "101",
+    "publication_year": 1925,
+    "isbn": "9780743273565",
+    "availability_status": "available",
+    "image": "/assets/cover.jpg",
+    "created_at": "2024-12-30T10:00:00Z",
+    "updated_at": "2024-12-30T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre_id": "102",
+    "publication_year": 1960,
+    "isbn": "9780061120084",
+    "availability_status": "borrowed",
+    "image": "/assets/cover.jpg",
+    "created_at": "2024-12-30T10:30:00Z",
+    "updated_at": "2024-12-30T10:30:00Z"
+  },
+  {
+    "id": "3",
+    "title": "1984",
+    "author": "George Orwell",
+    "genre_id": "103",
+    "publication_year": 1949,
+    "isbn": "9780451524935",
+    "availability_status": "available",
+    "image": "/assets/cover.jpg",
+    "created_at": "2024-12-30T11:00:00Z",
+    "updated_at": "2024-12-30T11:00:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre_id": "104",
+    "publication_year": 1813,
+    "isbn": "9780141439518",
+    "availability_status": "reserved",
+    "image": "/assets/cover.jpg",
+    "created_at": "2024-12-30T11:30:00Z",
+    "updated_at": "2024-12-30T11:30:00Z"
+  },
+  {
+    "id": "5",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre_id": "105",
+    "publication_year": 1951,
+    "isbn": "9780316769488",
+    "availability_status": "available",
+    "image": "/assets/cover.jpg",
+    "created_at": "2024-12-30T12:00:00Z",
+    "updated_at": "2024-12-30T12:00:00Z"
+  }
+]
