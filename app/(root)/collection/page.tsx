@@ -1,4 +1,5 @@
 import Author from "@/components/Author"
+import { CarouselSize } from "@/components/CarouselSize"
 import Gallery from "@/components/Gallery"
 import Showcase from "@/components/Showcase"
 import { MoveLeft, MoveRight } from "lucide-react"
@@ -33,7 +34,8 @@ const Page = () => {
       </section>    
 
       {/* Gallery */}
-      <Gallery />
+      {/* <Gallery /> */}
+      <CarouselSize />
     </>    
   )
 }
